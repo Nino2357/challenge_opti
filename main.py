@@ -5,10 +5,10 @@ def main():
     aleav1(inst)
 
 def aleav1(inst):
-    for inst_temp in inst[:40,:]:
+    for inst_temp in inst[:45,:]:
         res = genere(inst_temp[0])
         score_max = trouve_score((inst_temp),res)  #Plus grand que le score max
-        for i in range(inst_temp[0]*10):
+        for i in range(inst_temp[0]*100):
             #print(i)
             res = genere(inst_temp[0])
             #print(res)
@@ -34,7 +34,7 @@ def genere(taille):
     
     
 def export(inst_temp,res,score):
-    nom_fic= "alea_t100_i0_20/res_N{0}_K{1}_S{2}.csv".format(inst_temp[0],inst_temp[1],score)
+    nom_fic= "alea_tbig_i0_45/res_N{0}_K{1}_S{2}.csv".format(inst_temp[0],inst_temp[1],score)
     with open(nom_fic,"w") as fic:
         fic.write("\n".join(",".join(map(str, x)) for x in (inst_temp,res)))
 
