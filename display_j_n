@@ -1,0 +1,37 @@
+[I 09:17:51.158 NotebookApp] The port 8888 is already in use, trying another port.
+[I 09:17:51.179 NotebookApp] JupyterLab extension loaded from /home/nino/anaconda3/lib/python3.7/site-packages/jupyterlab
+[I 09:17:51.179 NotebookApp] JupyterLab application directory is /home/nino/anaconda3/share/jupyter/lab
+[I 09:17:51.182 NotebookApp] Serving notebooks from local directory: /home/nino/challenge_opti
+[I 09:17:51.182 NotebookApp] The Jupyter Notebook is running at:
+[I 09:17:51.182 NotebookApp] http://localhost:8889/?token=86a2fb77ce9a66978ef054efe3d8ad51188d8ebc814694b1
+[I 09:17:51.182 NotebookApp]  or http://127.0.0.1:8889/?token=86a2fb77ce9a66978ef054efe3d8ad51188d8ebc814694b1
+[I 09:17:51.182 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 09:17:51.196 NotebookApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/nino/.local/share/jupyter/runtime/nbserver-7531-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8889/?token=86a2fb77ce9a66978ef054efe3d8ad51188d8ebc814694b1
+     or http://127.0.0.1:8889/?token=86a2fb77ce9a66978ef054efe3d8ad51188d8ebc814694b1
+[I 10:23:27.244 NotebookApp] Kernel started: caf463e7-79f3-48b1-aacc-02c4096a1694
+[I 10:25:02.483 NotebookApp] Saving file at /analyse.ipynb
+[I 10:25:27.204 NotebookApp] Saving file at /analyse.ipynb
+[I 10:27:27.968 NotebookApp] Saving file at /analyse.ipynb
+[I 10:29:27.185 NotebookApp] Saving file at /analyse.ipynb
+[I 10:31:27.200 NotebookApp] Saving file at /analyse.ipynb
+[I 10:35:27.200 NotebookApp] Saving file at /analyse.ipynb
+[I 10:36:38.802 NotebookApp] Saving file at /analyse.ipynb
+[I 10:37:27.199 NotebookApp] Saving file at /analyse.ipynb
+[I 10:39:27.201 NotebookApp] Saving file at /analyse.ipynb
+[I 10:41:27.959 NotebookApp] Saving file at /analyse.ipynb
+[I 10:43:06.422 NotebookApp] Saving file at /analyse.ipynb
+[I 10:43:27.969 NotebookApp] Saving file at /analyse.ipynb
+[I 10:47:27.233 NotebookApp] Saving file at /analyse.ipynb
+[I 10:49:27.960 NotebookApp] Saving file at /analyse.ipynb
+[I 10:53:27.224 NotebookApp] Saving file at /analyse.ipynb
+[I 10:54:02.229 NotebookApp] Saving file at /analyse.ipynb
+[I 10:55:27.203 NotebookApp] Saving file at /analyse.ipynb
+[I 10:56:08.667 NotebookApp] Saving file at /analyse.ipynb
+[I 10:57:27.201 NotebookApp] Saving file at /analyse.ipynb
+[I 10:59:27.201 NotebookApp] Saving file at /analyse.ipynb
+[I 11:01:03.389 NotebookApp] Saving file at /analyse.ipynb
