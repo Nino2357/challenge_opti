@@ -1,13 +1,21 @@
 import numpy as np
 
-
-
 def main():
     inst = np.genfromtxt("doc/instances.txt",dtype = int)
-    inst_temp=[10,10]
-    res=[-1,1,1,1,1,-1,1,1,1,-1]
-    score = trouve_score((inst_temp),res)
-    export(inst_temp, res, score)
+    fonction_aleatoire(inst)
+
+def fonction_aleatoire(inst):
+    for inst_temp in inst:
+        res = genere(inst_temp[0])
+        score = trouve_score((inst_temp),res)
+        export(inst_temp, res, score)
+    
+def genere(taille):
+    rand = np.random.randint(2, size=taille)
+    rand[rand==0]=-1
+    return rand
+    print(rand)
+    
     
 def export(inst_temp,res,score):
     nom_fic= "res/res_N{0}_K{1}_S{2}.csv".format(inst_temp[0],inst_temp[1],score)
